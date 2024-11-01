@@ -1,0 +1,42 @@
+body {
+}
+
+
+tr, td{
+	padding: 5px;
+}
+
+#spjb_admin{
+	padding:10px; 
+	background-color:#eaeaea; 
+	margin-top:25px; 
+	width:95%;
+}
+
+#spjb_yes, #spjb_info, #spjb_no{
+	padding: 10px 10px 10px 40px;
+	margin:10px;
+	background-color:#FFF;
+	line-height:22px;
+}
+
+#spjb_yes:before, #spjb_info:before, #spjb_no:before{
+	position:absolute;
+	content:url(img/yes.png);
+	width:24px;
+	height:24px;
+	margin-left:-30px;
+}
+
+#spjb_yes:before{
+	content:url(img/yes.png);
+}
+
+#spjb_no:before{
+	content:url(img/no.png);
+}
+
+#spjb_info:before{
+	content:url(img/info.png);
+}
+
